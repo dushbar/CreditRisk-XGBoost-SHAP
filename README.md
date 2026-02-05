@@ -8,7 +8,8 @@ The workflow emphasizes:
 - **Domain-aware missing value handling** for sparse credit bureau variables  
 - **Robust feature engineering** aligned with lending use cases  
 - **Model validation via a regularized logistic regression baseline**  
-- **Global and local explainability using SHAP**, including loan-level risk explanations  
+- **Global and local explainability using SHAP**, including loan-level risk explanations
+- **Bayesian Optimization to tune hyperparameters
 
 The final model produces both **accurate default risk predictions** and **transparent explanations** suitable for credit analysts, auditors, and regulatory review.
 
