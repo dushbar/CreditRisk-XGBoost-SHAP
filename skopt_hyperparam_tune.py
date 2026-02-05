@@ -100,3 +100,4 @@ def tune_xgb_credit_risk(
     print(f"Best AUC      : {best_auc:.5f}")
 
     return best_model, best_params, best_logloss, best_auc
+
