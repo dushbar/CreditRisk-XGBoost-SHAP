@@ -1,5 +1,6 @@
 # Explainable Credit Risk Modeling with XGBoost and SHAP
 This project implements an end-to-end **credit risk (default prediction) pipeline** using XGBoost, careful target leakage prevention, and a strong focus on **explainability and real-world modeling practices**.
+Data was taken from here: https://www.kaggle.com/datasets/wordsforthewise/lending-club/data
 
 The workflow emphasizes:
 - **Target leakage prevention** through careful temporal feature selection  
