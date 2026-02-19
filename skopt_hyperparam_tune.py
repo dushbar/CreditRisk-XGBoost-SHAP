@@ -1,17 +1,3 @@
-# -------------------------------------------------------------------
-# Bayesian hyperparameter optimization for XGBoost (credit risk)
-#
-# Original implementation inspired by:
-# https://github.com/amanbarot/text_classification_baseline/blob/main/skopt_hyperparam_tune.py
-#
-# Adapted and extended for credit risk modeling:
-# - Binary classification (PD estimation)
-# - Imbalanced data handling (scale_pos_weight)
-# - Log-loss optimization with AUC reporting
-# - Reduced, stability-focused hyperparameter space
-#
-# -------------------------------------------------------------------
-
 from skopt import gp_minimize
 from skopt.space import Real, Integer
 from xgboost import XGBClassifier
@@ -22,7 +8,7 @@ import numpy as np
 def tune_xgb_credit_risk(
     X_train, y_train,
     X_valid, y_valid,
-    n_calls=40,
+    n_calls=20,
     random_state=42,
 ):
     """
@@ -114,5 +100,3 @@ def tune_xgb_credit_risk(
     print(f"Best AUC      : {best_auc:.5f}")
 
     return best_model, best_params, best_logloss, best_auc
-
-
