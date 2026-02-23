@@ -28,6 +28,9 @@ The final model produces both **accurate default risk predictions** and **transp
 | Model | AUC | Log loss |
 |-------|--------|-----------|
 | Logistic Regression | 0.720985 | 0.616411 |
+| XGBoost_default | 0.727221 | 0.606187 |
+| XGBoost_skopt | 0.728175 | 0.490679 |
+| XGBoost_calibration | 0.729365 | 0.462332 |
 
 ### Key Highlights
 - Scales to large tabular datasets (1M+ rows)
