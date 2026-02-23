@@ -14,11 +14,11 @@ The workflow emphasizes:
 The final model produces both **accurate default risk predictions** and **transparent explanations** suitable for credit analysts, auditors, and regulatory review.
 
 ## Project Pipeline
--### 1. **Data Processing & Feature Engineering
+1. **Data Processing & Feature Engineering
       - Missing value handling (zero vs median logic based on financial meaning)
       - Target encoding for categorical variables
       - Standard scaling for numerical features
-    2. **Modeling
+2. **Modeling
       - Baseline Logistic regression model
       - Default XGBoost model
       - Tune XGBoost using Bayesian optimization and Stratified 5-Fold Cross Validation
