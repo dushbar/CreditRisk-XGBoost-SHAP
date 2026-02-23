@@ -26,8 +26,8 @@ The final model produces both **accurate default risk predictions** and **transp
 
 ## Model Comparison
 | Model | AUC | Log loss |
---------------------------
-| Logistic Regression | 0.720985 | 0.616411
+|-------|--------|-----------|
+| Logistic Regression | 0.720985 | 0.616411 |
 
 ### Key Highlights
 - Scales to large tabular datasets (1M+ rows)
