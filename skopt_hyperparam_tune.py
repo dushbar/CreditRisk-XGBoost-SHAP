@@ -50,7 +50,7 @@ def tune_xgb_credit_risk_cv(
             model = XGBClassifier(
                 objective="binary:logistic",
                 eval_metric="logloss",
-                n_estimators=100,
+                n_estimators=2000,
                 early_stopping_rounds=50,
                 random_state=random_state,
                 verbosity=0,
