@@ -37,7 +37,3 @@ The final model produces both **accurate default risk predictions** and **transp
 - Handles highly sparse bureau features without information loss
 - Captures non-linear risk patterns and feature interactions
 - Generates borrower-level explanations for individual loan decisions
-
-
-This project is designed to reflect **industry-style credit risk modeling**, rather than a purely academic approach.
-
