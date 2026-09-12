@@ -1,0 +1,9 @@
+,roc_auc,pr_auc,f1_at_0.5
+no_handling,0.7018,0.2763,0.016
+class_weight,0.7031,0.2746,0.3532
+undersample,0.7025,0.2743,0.3522
+smote,0.6975,0.2686,0.3506
+logistic_regression,0.7027,0.277,0.3526
+random_forest,0.7012,0.2732,0.3538
+xgboost,0.7107,0.2891,0.3576
+lightgbm,0.7108,0.2892,0.3572

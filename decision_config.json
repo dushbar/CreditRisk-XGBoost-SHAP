@@ -1,0 +1,8 @@
+{
+  "threshold": 0.13,
+  "cost_false_negative": 6000,
+  "cost_false_positive": 900,
+  "calibration_method": "isotonic",
+  "oot_test_roc_auc": 0.7030470905387923,
+  "oot_test_ks": 0.2957266131008337
+}

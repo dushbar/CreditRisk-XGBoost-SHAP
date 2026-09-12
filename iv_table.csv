@@ -1,0 +1,102 @@
+feature,iv,band
+sub_grade,0.3873668001498586,strong
+int_rate,0.3500636604594841,strong
+fico_avg,0.12543503257032748,medium
+acc_open_past_24mths,0.06812062529673521,weak
+installment_to_income,0.06566303883491759,weak
+bc_open_to_buy,0.06524877172931359,weak
+loan_to_income,0.058308729196419634,weak
+total_bc_limit,0.05548700451308746,weak
+annual_inc,0.055140156655495494,weak
+num_tl_op_past_12m,0.05259602398466888,weak
+tot_hi_cred_lim,0.052469356115903386,weak
+avg_cur_bal,0.049582670284655045,weak
+dti,0.0491239497559528,weak
+term,0.04901397197553154,weak
+term_num,0.04901397197553154,weak
+total_rev_hi_lim,0.04210532169038597,weak
+tot_cur_bal,0.04067473653418574,weak
+mo_sin_rcnt_tl,0.038581851401142044,weak
+verification_status,0.037958493595871466,weak
+mo_sin_rcnt_rev_tl_op,0.03158327774542416,weak
+percent_bc_gt_75,0.03068880199895075,weak
+mths_since_recent_bc,0.029670809910141947,weak
+home_ownership,0.0289823071069784,weak
+mort_acc,0.02679847335978998,weak
+mths_since_recent_inq,0.026797525564733544,weak
+mo_sin_old_rev_tl_op,0.026491138973746824,weak
+bc_util,0.026417823961335914,weak
+purpose,0.024463378689119186,weak
+revol_util,0.02224089434815963,weak
+num_actv_rev_tl,0.020065255303537782,weak
+num_rev_tl_bal_gt_0,0.019954212387743888,not predictive
+credit_history_years,0.016201163126993646,not predictive
+open_acc_ratio,0.015481226545602765,not predictive
+addr_state,0.014173788715563537,not predictive
+emp_length,0.01367125894431435,not predictive
+mo_sin_old_il_acct,0.012052399488470525,not predictive
+mths_since_recent_inq_was_missing,0.010046001293755456,not predictive
+revol_bal,0.009701607288613351,not predictive
+initial_list_status,0.008436115656283093,not predictive
+num_actv_bc_tl,0.004780482499681079,not predictive
+num_op_rev_tl,0.004614132542466456,not predictive
+installment,0.004227348753342241,not predictive
+total_bal_ex_mort,0.003594366472475473,not predictive
+total_acc,0.003093563713389535,not predictive
+total_il_high_credit_limit,0.0025943640717322443,not predictive
+loan_amnt,0.0020926746775415373,not predictive
+num_bc_tl,0.001938188944694294,not predictive
+num_sats,0.00156656280166096,not predictive
+mths_since_last_delinq,0.0015369596204923368,not predictive
+open_acc,0.00135460661652047,not predictive
+num_il_tl,0.0013465881259195165,not predictive
+delinq_2yrs,0.0012031422612236503,not predictive
+mths_since_last_delinq_was_missing,0.001107663584273516,not predictive
+num_tl_120dpd_2m_was_missing,0.0009265495632236954,not predictive
+pub_rec,0.0007986424648250448,not predictive
+tot_coll_amt,0.0007297969803229132,not predictive
+mths_since_recent_revol_delinq,0.0007147773631077205,not predictive
+mo_sin_old_il_acct_was_missing,0.000608692938397782,not predictive
+pub_rec_bankruptcies,0.0005730510660932385,not predictive
+num_accts_ever_120_pd,0.0005476579335026354,not predictive
+num_rev_accts,0.0004973702021511724,not predictive
+mths_since_recent_revol_delinq_was_missing,0.0004551541528185529,not predictive
+num_bc_sats,0.00038027675668460265,not predictive
+chargeoff_within_12_mths,0.0001772565686470989,not predictive
+avg_cur_bal_was_missing,0.00014545790220451443,not predictive
+mo_sin_old_rev_tl_op_was_missing,0.0001449937225656148,not predictive
+mo_sin_rcnt_rev_tl_op_was_missing,0.0001449937225656148,not predictive
+num_tl_30dpd_was_missing,0.00014420248519603858,not predictive
+num_rev_tl_bal_gt_0_was_missing,0.00014420248519603858,not predictive
+num_tl_op_past_12m_was_missing,0.00014420248519603858,not predictive
+total_il_high_credit_limit_was_missing,0.00014420248519603858,not predictive
+tot_hi_cred_lim_was_missing,0.00014420248519603858,not predictive
+num_il_tl_was_missing,0.00014420248519603858,not predictive
+num_actv_rev_tl_was_missing,0.00014420248519603858,not predictive
+num_op_rev_tl_was_missing,0.00014420248519603858,not predictive
+tot_coll_amt_was_missing,0.00014420248519603858,not predictive
+tot_cur_bal_was_missing,0.00014420248519603858,not predictive
+total_rev_hi_lim_was_missing,0.00014420248519603858,not predictive
+mo_sin_rcnt_tl_was_missing,0.00014420248519603858,not predictive
+num_accts_ever_120_pd_was_missing,0.00014420248519603858,not predictive
+num_actv_bc_tl_was_missing,0.00014420248519603858,not predictive
+num_bc_tl_was_missing,0.00014420248519603858,not predictive
+num_rev_accts_was_missing,0.00014406280689030875,not predictive
+num_tl_120dpd_2m,6.241496736842154e-05,not predictive
+num_tl_30dpd,5.662476695201201e-05,not predictive
+total_bal_ex_mort_was_missing,3.1932361575526015e-05,not predictive
+total_bc_limit_was_missing,3.1932361575526015e-05,not predictive
+mort_acc_was_missing,3.1932361575526015e-05,not predictive
+acc_open_past_24mths_was_missing,3.1932361575526015e-05,not predictive
+application_type,2.2423403095948976e-05,not predictive
+bc_util_was_missing,3.2775855081173767e-07,not predictive
+num_bc_sats_was_missing,3.2026206199496524e-07,not predictive
+num_sats_was_missing,3.2026206199496524e-07,not predictive
+mths_since_recent_bc_was_missing,1.0942877211997429e-07,not predictive
+percent_bc_gt_75_was_missing,7.967740327117674e-08,not predictive
+bc_open_to_buy_was_missing,2.4206512295212066e-09,not predictive
+pymnt_plan,0.0,not predictive
+delinq_amnt,0.0,not predictive
+policy_code,0.0,not predictive
+tax_liens,0.0,not predictive
+disbursement_method,0.0,not predictive
